@@ -15,7 +15,7 @@
 # The toplevel directory of the source tree.  This is the directory
 # that contains this "Makefile.in" and the "configure.in" script.
 #
-TOP = /home/gabriel/sqlite3
+TOP = /home/gabriel/repos/sqlite3
 
 # C Compiler and options for use in building executables that
 # will run on the platform that is doing the build.
@@ -1581,8 +1581,7 @@ clean:
 	rm -f sqlite3.dll sqlite3.lib sqlite3.exp sqlite3.def
 	rm -f sqlite3.c
 	rm -f sqlite3rc.h
-	#rm -f shell.c sqlite3ext.h
-	rm -f sqlite3ext.h
+	rm -f shell.c sqlite3ext.h
 	rm -f sqlite3_analyzer$(TEXE) sqlite3_analyzer.c
 	rm -f sqlite-*-output.vsix
 	rm -f mptester mptester.exe
