@@ -1,5 +1,10 @@
 <h1 align="center">SQLite Source Repository</h1>
 
+## Note for KelpieEXPE usage
+
+Run the .configure script andthen modify the Makefile in accordance to
+Makefile.example, regarding the EXTRA_CFLAGS variable.
+
 This repository contains the complete source code for the
 [SQLite database engine](https://sqlite.org/).  Some test scripts
 are also included.  However, many other test scripts
